@@ -1,0 +1,2471 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="date=no">
+    <meta name="format-detection" content="address=no">
+    <meta name="format-detection" content="email=no">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#009846">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#009846">
+    <meta name="msapplication-config" content="favicon/browserconfig.xml">
+    <title>Корзина</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/style.min.css?_v=20221222014351">
+    <link href="//vjs.zencdn.net/7.10.2/video-js.min.css?_v=20221222014351" rel="stylesheet">
+    <link rel="preload" href="fonts/Manrope-200.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Manrope-300.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Manrope-500.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Manrope-600.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Manrope-700.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Manrope-800.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/OldStandardTT-400.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/OldStandardTT-700.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/ProstoOne-400.woff2" as="font" crossorigin="anonymous">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey735724a6-c4da-4daf-8ce5-d2298e0f1263&amp;lang=ru_RU&_v=20221222014351"></script>
+  </head>
+  <body class="page__body">
+    <noscript>У вас отключен JavaScript. Это пугает. You have JavaScript disabled. It scares.</noscript>
+    <header class="header">
+      <div class="header__container">
+        <!-- Навигация по страницам-->
+        <nav class="header__page-navigation page-navigation">
+          <!-- Логотип--><a class="page-navigation__logo logo" href="index.html"><img src="images/logo.svg" alt="Логотип компании Мебель Италии"></a>
+          <!-- Список страниц-->
+          <div class="page-navigation__list-wrapper">
+            <ul class="page-navigation__list" id="page-navigation">
+              <li class="page-navigation__item">
+                <!-- Открыть/закрыть каталог--><a class="page-navigation__link page-navigation__link--catalog" href="catalog.html">
+                  <svg width="14" height="14" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#catalog-open"></use>
+                  </svg><span>Каталог мебели</span></a>
+              </li>
+              <li class="page-navigation__item"><a class="page-navigation__link" href="collaboration.html">Дизайнерам и архитекторам</a></li>
+              <li class="page-navigation__item"><a class="page-navigation__link" href="factories.html">Фабрики</a></li>
+              <li class="page-navigation__item"><a class="page-navigation__link" href="about.html">О компании</a></li>
+              <li class="page-navigation__item"><a class="page-navigation__link" href="shipping-and-payment.html">Доставка и оплата</a></li>
+              <li class="page-navigation__item"><a class="page-navigation__link" href="about.html">Контакты</a></li>
+            </ul>
+            <div class="page-navigation__contacts"><a class="page-navigation__phone" href="tel:88001617300">8 800 161 73 00</a>
+              <div class="page-navigation__messengers"><a class="social" style="--before: rgb(255 255 255 / 20%); --after: #37AEE2" href="https://telegram.org/"><span class="visually-hidden">telegram</span>
+                  <svg width="15" height="15" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#telegram"></use>
+                  </svg></a><a class="social" style="--before: rgb(255 255 255 / 20%); --after: #00E676" href="https://www.whatsapp.com/"><span class="visually-hidden">whatsapp</span>
+                  <svg width="15" height="15" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#whatsapp"></use>
+                  </svg></a>
+              </div>
+            </div>
+          </div>
+          <!-- Контакты-->
+          <div class="page-navigation__contacts">
+            <div class="page-navigation__messengers"><a class="social" style="--before: rgb(255 255 255 / 20%); --after: #37AEE2" href="https://telegram.org/"><span class="visually-hidden">telegram</span>
+                <svg width="15" height="15" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#telegram"></use>
+                </svg></a><a class="social" style="--before: rgb(255 255 255 / 20%); --after: #00E676" href="https://www.whatsapp.com/"><span class="visually-hidden">whatsapp</span>
+                <svg width="15" height="15" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#whatsapp"></use>
+                </svg></a>
+            </div><a class="page-navigation__phone" href="tel:88001617300">8 800 161 73 00</a>
+          </div>
+          <!-- Навигация пользователя-->
+          <div class="page-navigation__user-links"><a class="user-link" href="bookmarks.html" id="user-bookmark"><span class="visually-hidden">Перейти в закладки</span>
+              <svg width="15" height="15" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#bookmark"></use>
+              </svg><span>0</span></a><a class="user-link" href="favorites.html" id="user-favorite"><span class="visually-hidden">Перейти в избранное</span>
+              <svg width="17" height="15" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#favorite"></use>
+              </svg><span>0</span></a><a class="user-link" href="cart.html" id="user-cart"><span class="visually-hidden">Перейти в корзину</span>
+              <svg width="17" height="15" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#cart"></use>
+              </svg><span><span>0</span> в корзине</span></a>
+            <button class="page-navigation__menu-open" type="button" aria-expanded="false" aria-controls="page-navigation"><span class="visually-hidden">Открыть навигацию по страницам</span><span></span><span></span><span></span></button>
+          </div>
+        </nav>
+        <!-- Навигация по товарам-->
+        <div class="header__product-navigation product-navigation">
+          <!-- Поиск-->
+          <form class="product-navigation__form" action="">
+            <input class="product-navigation__input" type="text" id="navigation-search" name="search" placeholder="Поиск">
+            <label class="visually-hidden" for="navigation-search">Поле поиска по сайту</label>
+            <button class="product-navigation__submit" type="submit"><span class="visually-hidden">Искать на сайте</span>
+              <svg width="26" height="26" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#loop"></use>
+              </svg>
+            </button>
+          </form>
+          <!-- Каталог продукции-->
+          <div class="product-navigation__catalog-wrapper">
+            <ul class="product-navigation__catalog-list">
+              <li class="product-navigation__catalog-item panel-item"><span class="panel-item__image"><img src="images/icon-sale.svg" alt=""></span><a class="panel-item__link" href="index.html"><span class="panel-item__text">Распродажа</span></a>
+                <button class="panel-item__button" type="button" aria-expanded="false" aria-controls="navigation-catalog"><span class="visually-hidden">Открыть раздел</span>
+                  <svg width="7" height="10" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#navigation-arrow"></use>
+                  </svg>
+                </button>
+                <div class="panel-item__catalog-navigation navigation-catalog" id="navigation-catalog">
+                  <ul class="navigation-catalog__list">
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Диваны</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Кресла</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Зеркала</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Кровати</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Пуфики</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Столы</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Тумбы</a></h3>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="product-navigation__catalog-item panel-item"><span class="panel-item__image"><img src="images/icon-bedroom.svg" alt=""></span><a class="panel-item__link" href="index.html"><span class="panel-item__text">Спальни</span></a>
+                <button class="panel-item__button" type="button" aria-expanded="false" aria-controls="navigation-catalog"><span class="visually-hidden">Открыть раздел</span>
+                  <svg width="7" height="10" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#navigation-arrow"></use>
+                  </svg>
+                </button>
+                <div class="panel-item__catalog-navigation navigation-catalog" id="navigation-catalog">
+                  <ul class="navigation-catalog__list">
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Диваны</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Кресла</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Зеркала</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Кровати</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Пуфики</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Столы</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Тумбы</a></h3>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="product-navigation__catalog-item panel-item"><span class="panel-item__image"><img src="images/icon-children.svg" alt=""></span><a class="panel-item__link" href="index.html"><span class="panel-item__text">Детская мебель</span></a>
+                <button class="panel-item__button" type="button" aria-expanded="false" aria-controls="navigation-catalog"><span class="visually-hidden">Открыть раздел</span>
+                  <svg width="7" height="10" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#navigation-arrow"></use>
+                  </svg>
+                </button>
+                <div class="panel-item__catalog-navigation navigation-catalog" id="navigation-catalog">
+                  <ul class="navigation-catalog__list">
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Диваны</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Кресла</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Зеркала</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Кровати</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Пуфики</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Столы</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Тумбы</a></h3>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="product-navigation__catalog-item panel-item"><span class="panel-item__image"><img src="images/icon-wall.svg" alt=""></span><a class="panel-item__link" href="index.html"><span class="panel-item__text">Стенки</span></a>
+                <button class="panel-item__button" type="button" aria-expanded="false" aria-controls="navigation-catalog"><span class="visually-hidden">Открыть раздел</span>
+                  <svg width="7" height="10" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#navigation-arrow"></use>
+                  </svg>
+                </button>
+                <div class="panel-item__catalog-navigation navigation-catalog" id="navigation-catalog">
+                  <ul class="navigation-catalog__list">
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Диваны</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Кресла</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Зеркала</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Кровати</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Пуфики</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Столы</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Тумбы</a></h3>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="product-navigation__catalog-item panel-item"><span class="panel-item__image"><img src="images/icon-kitchen.svg" alt=""></span><a class="panel-item__link" href="index.html"><span class="panel-item__text">Кухни</span></a>
+                <button class="panel-item__button" type="button" aria-expanded="false" aria-controls="navigation-catalog"><span class="visually-hidden">Открыть раздел</span>
+                  <svg width="7" height="10" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#navigation-arrow"></use>
+                  </svg>
+                </button>
+                <div class="panel-item__catalog-navigation navigation-catalog" id="navigation-catalog">
+                  <ul class="navigation-catalog__list">
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Диваны</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Кресла</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Зеркала</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Кровати</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Пуфики</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Столы</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Тумбы</a></h3>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="product-navigation__catalog-item panel-item"><span class="panel-item__image"><img src="images/icon-furniture.svg" alt=""></span><a class="panel-item__link" href="index.html"><span class="panel-item__text">Мягкая мебель</span></a>
+                <button class="panel-item__button" type="button" aria-expanded="false" aria-controls="navigation-catalog"><span class="visually-hidden">Открыть раздел</span>
+                  <svg width="7" height="10" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#navigation-arrow"></use>
+                  </svg>
+                </button>
+                <div class="panel-item__catalog-navigation navigation-catalog" id="navigation-catalog">
+                  <ul class="navigation-catalog__list">
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Диваны</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Кресла</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Зеркала</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Кровати</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Пуфики</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Столы</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Тумбы</a></h3>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="product-navigation__catalog-item panel-item"><span class="panel-item__image"><img src="images/icon-lounge.svg" alt=""></span><a class="panel-item__link" href="index.html"><span class="panel-item__text">Гостиные</span></a>
+                <button class="panel-item__button" type="button" aria-expanded="false" aria-controls="navigation-catalog"><span class="visually-hidden">Открыть раздел</span>
+                  <svg width="7" height="10" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#navigation-arrow"></use>
+                  </svg>
+                </button>
+                <div class="panel-item__catalog-navigation navigation-catalog" id="navigation-catalog">
+                  <ul class="navigation-catalog__list">
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Диваны</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Кресла</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Зеркала</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Кровати</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Пуфики</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Столы</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Тумбы</a></h3>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="product-navigation__catalog-item panel-item"><span class="panel-item__image"><img src="images/icon-cabinet.svg" alt=""></span><a class="panel-item__link" href="index.html"><span class="panel-item__text">Кабинеты, прихожие</span></a>
+                <button class="panel-item__button" type="button" aria-expanded="false" aria-controls="navigation-catalog"><span class="visually-hidden">Открыть раздел</span>
+                  <svg width="7" height="10" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#navigation-arrow"></use>
+                  </svg>
+                </button>
+                <div class="panel-item__catalog-navigation navigation-catalog" id="navigation-catalog">
+                  <ul class="navigation-catalog__list">
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Диваны</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Кресла</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Зеркала</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Кровати</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Пуфики</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Столы</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Тумбы</a></h3>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="product-navigation__catalog-item panel-item"><span class="panel-item__image"><img src="images/icon-table.svg" alt=""></span><a class="panel-item__link" href="index.html"><span class="panel-item__text">Столы и стулья</span></a>
+                <button class="panel-item__button" type="button" aria-expanded="false" aria-controls="navigation-catalog"><span class="visually-hidden">Открыть раздел</span>
+                  <svg width="7" height="10" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#navigation-arrow"></use>
+                  </svg>
+                </button>
+                <div class="panel-item__catalog-navigation navigation-catalog" id="navigation-catalog">
+                  <ul class="navigation-catalog__list">
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Диваны</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Кресла</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Зеркала</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Кровати</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Пуфики</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Столы</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Тумбы</a></h3>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="product-navigation__catalog-item panel-item"><span class="panel-item__image"><img src="images/icon-interior.svg" alt=""></span><a class="panel-item__link" href="index.html"><span class="panel-item__text">Предметы интерьера</span></a>
+                <button class="panel-item__button" type="button" aria-expanded="false" aria-controls="navigation-catalog"><span class="visually-hidden">Открыть раздел</span>
+                  <svg width="7" height="10" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#navigation-arrow"></use>
+                  </svg>
+                </button>
+                <div class="panel-item__catalog-navigation navigation-catalog" id="navigation-catalog">
+                  <ul class="navigation-catalog__list">
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Диваны</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Кресла</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Зеркала</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Кровати</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Пуфики</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Столы</a></h3>
+                    </li>
+                    <li class="navigation-catalog__item">
+                      <h3 class="navigation-catalog__title"><a href="index.html">Тумбы</a></h3>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- Дополнительные ссылки-->
+          <ul class="product-navigation__page-list">
+            <li class="product-navigation__page-item panel-item panel-item--design"><span class="panel-item__image"><img src="images/icon-design.svg" alt=""></span>
+              <button class="panel-item__link"><span class="panel-item__text">Дизайн интерьера</span></button>
+            </li>
+            <li class="product-navigation__page-item panel-item"><span class="panel-item__image"><img src="images/icon-factory.svg" alt=""></span><a class="panel-item__link" href="factories.html"><span class="panel-item__text">Фабрики</span></a></li>
+            <li class="product-navigation__page-item panel-item"><span class="panel-item__image"><img src="images/icon-catalog.svg" alt=""></span><a class="panel-item__link" href="catalog.html"><span class="panel-item__text">Каталог</span></a></li>
+          </ul>
+        </div>
+        <!-- Результаты поиска-->
+        <div class="navigation-search">
+          <!-- Карточки-->
+          <div class="navigation-search__wrap">
+            <p class="navigation-search__title">Поиск по сайту</p>
+            <button class="navigation-search__close" type="button"><span class="visually-hidden">Закрыть результат поиска</span>
+              <svg width="10" height="10" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#close"></use>
+              </svg>
+            </button>
+            <ul class="navigation-search__list">
+              <li class="navigation-search__item card card--simple">
+                <div class="card__tags-wrapper">
+                  <div class="card__tags"><span>New</span><span>Sale</span>
+                  </div>
+                </div>
+                <!-- Стоковое состояние-->
+                <div class="card__stock stock-card">
+                  <p class="stock-card__article">Артикул: 23498549</p>
+                  <h2 class="stock-card__title">Спальня Charisma</h2><span class="stock-card__cost stock-card__cost">от 324 000 ₽</span>
+                  <div class="stock-card__image stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор">
+                    <button class="stock-card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <!-- Активное состояние-->
+                <div class="card__active active-card"><a class="active-card__link" href="index.html"><span class="visually-hidden">Перейти на страницу с товаром</span></a>
+                  <div class="card__all-wrapper">
+                    <div class="card__tags"><span>New</span><span>Sale</span>
+                    </div>
+                    <button class="card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="active-card__swiper-wrapper">
+                    <div class="active-card__swiper swiper">
+                      <ul class="active-card__swiper-list swiper-wrapper">
+                        <li class="active-card__swiper-item swiper-slide stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор"></li>
+                        <li class="active-card__swiper-item swiper-slide"><img src="images/card-simple.jpg" alt="Набор"></li>
+                      </ul>
+                    </div>
+                    <div class="active-card__swiper-dots"></div>
+                  </div>
+                  <div class="active-card__content-wrapper">
+                    <p class="active-card__article">Артикул: 23498549</p>
+                    <p class="active-card__title">Спальня Charisma</p>
+                    <p class="active-card__element"><span>Фабрика:</span><a href="index.html">De Majo</a></p>
+                    <p class="active-card__element"><span>Модель:</span><a href="index.html">Charisma</a></p>
+                    <p class="active-card__size">Ширина: 173 см, Высота: 110 см, Глубина: 212 см</p>
+                    <div class="active-card__wrapper">
+                      <p class="active-card__cost">Цена от 324 000 ₽</p>
+                      <p class="active-card__status">В наличии</p>
+                    </div>
+                    <div class="active-card__choice-wrapper">
+                      <form class="choice-radio choice-radio--light active-card__choice">
+                        <button class="choice-radio__button" type="button" aria-expanded="false"><span>160 × 200</span>
+                          <svg width="10" height="22" aria-hidden="true">
+                            <use xlink:href="images/sprite.svg#choice-arrows"></use>
+                          </svg>
+                        </button>
+                        <div class="choice-radio__list">
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size0" name="size"/>
+                            <label class="choice-radio__factory choice-radio__factory--current" for="size0">160 × 200</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size1" name="size"/>
+                            <label class="choice-radio__factory" for="size1">180 × 220</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size2" name="size"/>
+                            <label class="choice-radio__factory" for="size2">200 × 240</label>
+                          </div>
+                        </div>
+                      </form>
+                      <button class="active-card__button" type="button">Добавить в корзину —</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="navigation-search__item card card--simple">
+                <div class="card__tags-wrapper">
+                  <div class="card__tags"><span>New</span>
+                  </div>
+                </div>
+                <!-- Стоковое состояние-->
+                <div class="card__stock stock-card">
+                  <p class="stock-card__article">Артикул: 23498549</p>
+                  <h2 class="stock-card__title">Спальня Charisma</h2><span class="stock-card__cost stock-card__cost">от 424 000 ₽</span>
+                  <div class="stock-card__image stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор">
+                    <button class="stock-card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <!-- Активное состояние-->
+                <div class="card__active active-card"><a class="active-card__link" href="index.html"><span class="visually-hidden">Перейти на страницу с товаром</span></a>
+                  <div class="card__all-wrapper">
+                    <div class="card__tags"><span>New</span>
+                    </div>
+                    <button class="card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="active-card__swiper-wrapper">
+                    <div class="active-card__swiper swiper">
+                      <ul class="active-card__swiper-list swiper-wrapper">
+                        <li class="active-card__swiper-item swiper-slide stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор"></li>
+                        <li class="active-card__swiper-item swiper-slide"><img src="images/card-simple.jpg" alt="Набор"></li>
+                      </ul>
+                    </div>
+                    <div class="active-card__swiper-dots"></div>
+                  </div>
+                  <div class="active-card__content-wrapper">
+                    <p class="active-card__article">Артикул: 23498549</p>
+                    <p class="active-card__title">Спальня Charisma</p>
+                    <p class="active-card__element"><span>Фабрика:</span><a href="index.html">De Majo</a></p>
+                    <p class="active-card__element"><span>Модель:</span><a href="index.html">Charisma</a></p>
+                    <p class="active-card__size">Ширина: 173 см, Высота: 110 см, Глубина: 212 см</p>
+                    <div class="active-card__wrapper">
+                      <p class="active-card__cost">Цена от 424 000 ₽</p>
+                      <p class="active-card__status">В наличии</p>
+                    </div>
+                    <div class="active-card__choice-wrapper">
+                      <form class="choice-radio choice-radio--light active-card__choice">
+                        <button class="choice-radio__button" type="button" aria-expanded="false"><span>160 × 200</span>
+                          <svg width="10" height="22" aria-hidden="true">
+                            <use xlink:href="images/sprite.svg#choice-arrows"></use>
+                          </svg>
+                        </button>
+                        <div class="choice-radio__list">
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size0" name="size"/>
+                            <label class="choice-radio__factory choice-radio__factory--current" for="size0">160 × 200</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size1" name="size"/>
+                            <label class="choice-radio__factory" for="size1">180 × 220</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size2" name="size"/>
+                            <label class="choice-radio__factory" for="size2">200 × 240</label>
+                          </div>
+                        </div>
+                      </form>
+                      <button class="active-card__button" type="button">Добавить в корзину —</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="navigation-search__item card card--simple">
+                <div class="card__tags-wrapper">
+                  <div class="card__tags">
+                  </div>
+                </div>
+                <!-- Стоковое состояние-->
+                <div class="card__stock stock-card">
+                  <p class="stock-card__article">Артикул: 23498549</p>
+                  <h2 class="stock-card__title">Спальня Charisma</h2><span class="stock-card__cost stock-card__cost">от 224 000 ₽</span>
+                  <div class="stock-card__image stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор">
+                    <button class="stock-card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <!-- Активное состояние-->
+                <div class="card__active active-card"><a class="active-card__link" href="index.html"><span class="visually-hidden">Перейти на страницу с товаром</span></a>
+                  <div class="card__all-wrapper">
+                    <div class="card__tags">
+                    </div>
+                    <button class="card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="active-card__swiper-wrapper">
+                    <div class="active-card__swiper swiper">
+                      <ul class="active-card__swiper-list swiper-wrapper">
+                        <li class="active-card__swiper-item swiper-slide stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор"></li>
+                        <li class="active-card__swiper-item swiper-slide"><img src="images/card-simple.jpg" alt="Набор"></li>
+                      </ul>
+                    </div>
+                    <div class="active-card__swiper-dots"></div>
+                  </div>
+                  <div class="active-card__content-wrapper">
+                    <p class="active-card__article">Артикул: 23498549</p>
+                    <p class="active-card__title">Спальня Charisma</p>
+                    <p class="active-card__element"><span>Фабрика:</span><a href="index.html">De Majo</a></p>
+                    <p class="active-card__element"><span>Модель:</span><a href="index.html">Charisma</a></p>
+                    <p class="active-card__size">Ширина: 173 см, Высота: 110 см, Глубина: 212 см</p>
+                    <div class="active-card__wrapper">
+                      <p class="active-card__cost">Цена от 224 000 ₽</p>
+                      <p class="active-card__status">В наличии</p>
+                    </div>
+                    <div class="active-card__choice-wrapper">
+                      <form class="choice-radio choice-radio--light active-card__choice">
+                        <button class="choice-radio__button" type="button" aria-expanded="false"><span>160 × 200</span>
+                          <svg width="10" height="22" aria-hidden="true">
+                            <use xlink:href="images/sprite.svg#choice-arrows"></use>
+                          </svg>
+                        </button>
+                        <div class="choice-radio__list">
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size0" name="size"/>
+                            <label class="choice-radio__factory choice-radio__factory--current" for="size0">160 × 200</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size1" name="size"/>
+                            <label class="choice-radio__factory" for="size1">180 × 220</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size2" name="size"/>
+                            <label class="choice-radio__factory" for="size2">200 × 240</label>
+                          </div>
+                        </div>
+                      </form>
+                      <button class="active-card__button" type="button">Добавить в корзину —</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="navigation-search__item card card--simple">
+                <div class="card__tags-wrapper">
+                  <div class="card__tags"><span>Sale</span>
+                  </div>
+                </div>
+                <!-- Стоковое состояние-->
+                <div class="card__stock stock-card">
+                  <p class="stock-card__article">Артикул: 23498549</p>
+                  <h2 class="stock-card__title">Спальня Charisma</h2><span class="stock-card__cost stock-card__cost">от 324 000 ₽</span>
+                  <div class="stock-card__image stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор">
+                    <button class="stock-card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <!-- Активное состояние-->
+                <div class="card__active active-card"><a class="active-card__link" href="index.html"><span class="visually-hidden">Перейти на страницу с товаром</span></a>
+                  <div class="card__all-wrapper">
+                    <div class="card__tags"><span>Sale</span>
+                    </div>
+                    <button class="card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="active-card__swiper-wrapper">
+                    <div class="active-card__swiper swiper">
+                      <ul class="active-card__swiper-list swiper-wrapper">
+                        <li class="active-card__swiper-item swiper-slide stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор"></li>
+                        <li class="active-card__swiper-item swiper-slide"><img src="images/card-simple.jpg" alt="Набор"></li>
+                      </ul>
+                    </div>
+                    <div class="active-card__swiper-dots"></div>
+                  </div>
+                  <div class="active-card__content-wrapper">
+                    <p class="active-card__article">Артикул: 23498549</p>
+                    <p class="active-card__title">Спальня Charisma</p>
+                    <p class="active-card__element"><span>Фабрика:</span><a href="index.html">De Majo</a></p>
+                    <p class="active-card__element"><span>Модель:</span><a href="index.html">Charisma</a></p>
+                    <p class="active-card__size">Ширина: 173 см, Высота: 110 см, Глубина: 212 см</p>
+                    <div class="active-card__wrapper">
+                      <p class="active-card__cost">Цена от 324 000 ₽</p>
+                      <p class="active-card__status">В наличии</p>
+                    </div>
+                    <div class="active-card__choice-wrapper">
+                      <form class="choice-radio choice-radio--light active-card__choice">
+                        <button class="choice-radio__button" type="button" aria-expanded="false"><span>160 × 200</span>
+                          <svg width="10" height="22" aria-hidden="true">
+                            <use xlink:href="images/sprite.svg#choice-arrows"></use>
+                          </svg>
+                        </button>
+                        <div class="choice-radio__list">
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size0" name="size"/>
+                            <label class="choice-radio__factory choice-radio__factory--current" for="size0">160 × 200</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size1" name="size"/>
+                            <label class="choice-radio__factory" for="size1">180 × 220</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size2" name="size"/>
+                            <label class="choice-radio__factory" for="size2">200 × 240</label>
+                          </div>
+                        </div>
+                      </form>
+                      <button class="active-card__button" type="button">Добавить в корзину —</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="navigation-search__item card card--simple">
+                <div class="card__tags-wrapper">
+                  <div class="card__tags"><span>New</span><span>Sale</span>
+                  </div>
+                </div>
+                <!-- Стоковое состояние-->
+                <div class="card__stock stock-card">
+                  <p class="stock-card__article">Артикул: 23498549</p>
+                  <h2 class="stock-card__title">Спальня Charisma</h2><span class="stock-card__cost stock-card__cost">от 324 000 ₽</span>
+                  <div class="stock-card__image stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор">
+                    <button class="stock-card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <!-- Активное состояние-->
+                <div class="card__active active-card"><a class="active-card__link" href="index.html"><span class="visually-hidden">Перейти на страницу с товаром</span></a>
+                  <div class="card__all-wrapper">
+                    <div class="card__tags"><span>New</span><span>Sale</span>
+                    </div>
+                    <button class="card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="active-card__swiper-wrapper">
+                    <div class="active-card__swiper swiper">
+                      <ul class="active-card__swiper-list swiper-wrapper">
+                        <li class="active-card__swiper-item swiper-slide stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор"></li>
+                        <li class="active-card__swiper-item swiper-slide"><img src="images/card-simple.jpg" alt="Набор"></li>
+                      </ul>
+                    </div>
+                    <div class="active-card__swiper-dots"></div>
+                  </div>
+                  <div class="active-card__content-wrapper">
+                    <p class="active-card__article">Артикул: 23498549</p>
+                    <p class="active-card__title">Спальня Charisma</p>
+                    <p class="active-card__element"><span>Фабрика:</span><a href="index.html">De Majo</a></p>
+                    <p class="active-card__element"><span>Модель:</span><a href="index.html">Charisma</a></p>
+                    <p class="active-card__size">Ширина: 173 см, Высота: 110 см, Глубина: 212 см</p>
+                    <div class="active-card__wrapper">
+                      <p class="active-card__cost">Цена от 324 000 ₽</p>
+                      <p class="active-card__status">В наличии</p>
+                    </div>
+                    <div class="active-card__choice-wrapper">
+                      <form class="choice-radio choice-radio--light active-card__choice">
+                        <button class="choice-radio__button" type="button" aria-expanded="false"><span>160 × 200</span>
+                          <svg width="10" height="22" aria-hidden="true">
+                            <use xlink:href="images/sprite.svg#choice-arrows"></use>
+                          </svg>
+                        </button>
+                        <div class="choice-radio__list">
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size0" name="size"/>
+                            <label class="choice-radio__factory choice-radio__factory--current" for="size0">160 × 200</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size1" name="size"/>
+                            <label class="choice-radio__factory" for="size1">180 × 220</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size2" name="size"/>
+                            <label class="choice-radio__factory" for="size2">200 × 240</label>
+                          </div>
+                        </div>
+                      </form>
+                      <button class="active-card__button" type="button">Добавить в корзину —</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="navigation-search__item card card--simple">
+                <div class="card__tags-wrapper">
+                  <div class="card__tags"><span>New</span>
+                  </div>
+                </div>
+                <!-- Стоковое состояние-->
+                <div class="card__stock stock-card">
+                  <p class="stock-card__article">Артикул: 23498549</p>
+                  <h2 class="stock-card__title">Спальня Charisma</h2><span class="stock-card__cost stock-card__cost">от 424 000 ₽</span>
+                  <div class="stock-card__image stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор">
+                    <button class="stock-card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <!-- Активное состояние-->
+                <div class="card__active active-card"><a class="active-card__link" href="index.html"><span class="visually-hidden">Перейти на страницу с товаром</span></a>
+                  <div class="card__all-wrapper">
+                    <div class="card__tags"><span>New</span>
+                    </div>
+                    <button class="card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="active-card__swiper-wrapper">
+                    <div class="active-card__swiper swiper">
+                      <ul class="active-card__swiper-list swiper-wrapper">
+                        <li class="active-card__swiper-item swiper-slide stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор"></li>
+                        <li class="active-card__swiper-item swiper-slide"><img src="images/card-simple.jpg" alt="Набор"></li>
+                      </ul>
+                    </div>
+                    <div class="active-card__swiper-dots"></div>
+                  </div>
+                  <div class="active-card__content-wrapper">
+                    <p class="active-card__article">Артикул: 23498549</p>
+                    <p class="active-card__title">Спальня Charisma</p>
+                    <p class="active-card__element"><span>Фабрика:</span><a href="index.html">De Majo</a></p>
+                    <p class="active-card__element"><span>Модель:</span><a href="index.html">Charisma</a></p>
+                    <p class="active-card__size">Ширина: 173 см, Высота: 110 см, Глубина: 212 см</p>
+                    <div class="active-card__wrapper">
+                      <p class="active-card__cost">Цена от 424 000 ₽</p>
+                      <p class="active-card__status">В наличии</p>
+                    </div>
+                    <div class="active-card__choice-wrapper">
+                      <form class="choice-radio choice-radio--light active-card__choice">
+                        <button class="choice-radio__button" type="button" aria-expanded="false"><span>160 × 200</span>
+                          <svg width="10" height="22" aria-hidden="true">
+                            <use xlink:href="images/sprite.svg#choice-arrows"></use>
+                          </svg>
+                        </button>
+                        <div class="choice-radio__list">
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size0" name="size"/>
+                            <label class="choice-radio__factory choice-radio__factory--current" for="size0">160 × 200</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size1" name="size"/>
+                            <label class="choice-radio__factory" for="size1">180 × 220</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size2" name="size"/>
+                            <label class="choice-radio__factory" for="size2">200 × 240</label>
+                          </div>
+                        </div>
+                      </form>
+                      <button class="active-card__button" type="button">Добавить в корзину —</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="navigation-search__item card card--simple">
+                <div class="card__tags-wrapper">
+                  <div class="card__tags">
+                  </div>
+                </div>
+                <!-- Стоковое состояние-->
+                <div class="card__stock stock-card">
+                  <p class="stock-card__article">Артикул: 23498549</p>
+                  <h2 class="stock-card__title">Спальня Charisma</h2><span class="stock-card__cost stock-card__cost">от 224 000 ₽</span>
+                  <div class="stock-card__image stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор">
+                    <button class="stock-card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <!-- Активное состояние-->
+                <div class="card__active active-card"><a class="active-card__link" href="index.html"><span class="visually-hidden">Перейти на страницу с товаром</span></a>
+                  <div class="card__all-wrapper">
+                    <div class="card__tags">
+                    </div>
+                    <button class="card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="active-card__swiper-wrapper">
+                    <div class="active-card__swiper swiper">
+                      <ul class="active-card__swiper-list swiper-wrapper">
+                        <li class="active-card__swiper-item swiper-slide stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор"></li>
+                        <li class="active-card__swiper-item swiper-slide"><img src="images/card-simple.jpg" alt="Набор"></li>
+                      </ul>
+                    </div>
+                    <div class="active-card__swiper-dots"></div>
+                  </div>
+                  <div class="active-card__content-wrapper">
+                    <p class="active-card__article">Артикул: 23498549</p>
+                    <p class="active-card__title">Спальня Charisma</p>
+                    <p class="active-card__element"><span>Фабрика:</span><a href="index.html">De Majo</a></p>
+                    <p class="active-card__element"><span>Модель:</span><a href="index.html">Charisma</a></p>
+                    <p class="active-card__size">Ширина: 173 см, Высота: 110 см, Глубина: 212 см</p>
+                    <div class="active-card__wrapper">
+                      <p class="active-card__cost">Цена от 224 000 ₽</p>
+                      <p class="active-card__status">В наличии</p>
+                    </div>
+                    <div class="active-card__choice-wrapper">
+                      <form class="choice-radio choice-radio--light active-card__choice">
+                        <button class="choice-radio__button" type="button" aria-expanded="false"><span>160 × 200</span>
+                          <svg width="10" height="22" aria-hidden="true">
+                            <use xlink:href="images/sprite.svg#choice-arrows"></use>
+                          </svg>
+                        </button>
+                        <div class="choice-radio__list">
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size0" name="size"/>
+                            <label class="choice-radio__factory choice-radio__factory--current" for="size0">160 × 200</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size1" name="size"/>
+                            <label class="choice-radio__factory" for="size1">180 × 220</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size2" name="size"/>
+                            <label class="choice-radio__factory" for="size2">200 × 240</label>
+                          </div>
+                        </div>
+                      </form>
+                      <button class="active-card__button" type="button">Добавить в корзину —</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="navigation-search__item card card--simple">
+                <div class="card__tags-wrapper">
+                  <div class="card__tags"><span>Sale</span>
+                  </div>
+                </div>
+                <!-- Стоковое состояние-->
+                <div class="card__stock stock-card">
+                  <p class="stock-card__article">Артикул: 23498549</p>
+                  <h2 class="stock-card__title">Спальня Charisma</h2><span class="stock-card__cost stock-card__cost">от 324 000 ₽</span>
+                  <div class="stock-card__image stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор">
+                    <button class="stock-card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <!-- Активное состояние-->
+                <div class="card__active active-card"><a class="active-card__link" href="index.html"><span class="visually-hidden">Перейти на страницу с товаром</span></a>
+                  <div class="card__all-wrapper">
+                    <div class="card__tags"><span>Sale</span>
+                    </div>
+                    <button class="card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="active-card__swiper-wrapper">
+                    <div class="active-card__swiper swiper">
+                      <ul class="active-card__swiper-list swiper-wrapper">
+                        <li class="active-card__swiper-item swiper-slide stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор"></li>
+                        <li class="active-card__swiper-item swiper-slide"><img src="images/card-simple.jpg" alt="Набор"></li>
+                      </ul>
+                    </div>
+                    <div class="active-card__swiper-dots"></div>
+                  </div>
+                  <div class="active-card__content-wrapper">
+                    <p class="active-card__article">Артикул: 23498549</p>
+                    <p class="active-card__title">Спальня Charisma</p>
+                    <p class="active-card__element"><span>Фабрика:</span><a href="index.html">De Majo</a></p>
+                    <p class="active-card__element"><span>Модель:</span><a href="index.html">Charisma</a></p>
+                    <p class="active-card__size">Ширина: 173 см, Высота: 110 см, Глубина: 212 см</p>
+                    <div class="active-card__wrapper">
+                      <p class="active-card__cost">Цена от 324 000 ₽</p>
+                      <p class="active-card__status">В наличии</p>
+                    </div>
+                    <div class="active-card__choice-wrapper">
+                      <form class="choice-radio choice-radio--light active-card__choice">
+                        <button class="choice-radio__button" type="button" aria-expanded="false"><span>160 × 200</span>
+                          <svg width="10" height="22" aria-hidden="true">
+                            <use xlink:href="images/sprite.svg#choice-arrows"></use>
+                          </svg>
+                        </button>
+                        <div class="choice-radio__list">
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size0" name="size"/>
+                            <label class="choice-radio__factory choice-radio__factory--current" for="size0">160 × 200</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size1" name="size"/>
+                            <label class="choice-radio__factory" for="size1">180 × 220</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size2" name="size"/>
+                            <label class="choice-radio__factory" for="size2">200 × 240</label>
+                          </div>
+                        </div>
+                      </form>
+                      <button class="active-card__button" type="button">Добавить в корзину —</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="navigation-search__item card card--simple">
+                <div class="card__tags-wrapper">
+                  <div class="card__tags"><span>New</span><span>Sale</span>
+                  </div>
+                </div>
+                <!-- Стоковое состояние-->
+                <div class="card__stock stock-card">
+                  <p class="stock-card__article">Артикул: 23498549</p>
+                  <h2 class="stock-card__title">Спальня Charisma</h2><span class="stock-card__cost stock-card__cost">от 324 000 ₽</span>
+                  <div class="stock-card__image stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор">
+                    <button class="stock-card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <!-- Активное состояние-->
+                <div class="card__active active-card"><a class="active-card__link" href="index.html"><span class="visually-hidden">Перейти на страницу с товаром</span></a>
+                  <div class="card__all-wrapper">
+                    <div class="card__tags"><span>New</span><span>Sale</span>
+                    </div>
+                    <button class="card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="active-card__swiper-wrapper">
+                    <div class="active-card__swiper swiper">
+                      <ul class="active-card__swiper-list swiper-wrapper">
+                        <li class="active-card__swiper-item swiper-slide stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор"></li>
+                        <li class="active-card__swiper-item swiper-slide"><img src="images/card-simple.jpg" alt="Набор"></li>
+                      </ul>
+                    </div>
+                    <div class="active-card__swiper-dots"></div>
+                  </div>
+                  <div class="active-card__content-wrapper">
+                    <p class="active-card__article">Артикул: 23498549</p>
+                    <p class="active-card__title">Спальня Charisma</p>
+                    <p class="active-card__element"><span>Фабрика:</span><a href="index.html">De Majo</a></p>
+                    <p class="active-card__element"><span>Модель:</span><a href="index.html">Charisma</a></p>
+                    <p class="active-card__size">Ширина: 173 см, Высота: 110 см, Глубина: 212 см</p>
+                    <div class="active-card__wrapper">
+                      <p class="active-card__cost">Цена от 324 000 ₽</p>
+                      <p class="active-card__status">В наличии</p>
+                    </div>
+                    <div class="active-card__choice-wrapper">
+                      <form class="choice-radio choice-radio--light active-card__choice">
+                        <button class="choice-radio__button" type="button" aria-expanded="false"><span>160 × 200</span>
+                          <svg width="10" height="22" aria-hidden="true">
+                            <use xlink:href="images/sprite.svg#choice-arrows"></use>
+                          </svg>
+                        </button>
+                        <div class="choice-radio__list">
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size0" name="size"/>
+                            <label class="choice-radio__factory choice-radio__factory--current" for="size0">160 × 200</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size1" name="size"/>
+                            <label class="choice-radio__factory" for="size1">180 × 220</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size2" name="size"/>
+                            <label class="choice-radio__factory" for="size2">200 × 240</label>
+                          </div>
+                        </div>
+                      </form>
+                      <button class="active-card__button" type="button">Добавить в корзину —</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="navigation-search__item card card--simple">
+                <div class="card__tags-wrapper">
+                  <div class="card__tags"><span>New</span>
+                  </div>
+                </div>
+                <!-- Стоковое состояние-->
+                <div class="card__stock stock-card">
+                  <p class="stock-card__article">Артикул: 23498549</p>
+                  <h2 class="stock-card__title">Спальня Charisma</h2><span class="stock-card__cost stock-card__cost">от 424 000 ₽</span>
+                  <div class="stock-card__image stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор">
+                    <button class="stock-card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <!-- Активное состояние-->
+                <div class="card__active active-card"><a class="active-card__link" href="index.html"><span class="visually-hidden">Перейти на страницу с товаром</span></a>
+                  <div class="card__all-wrapper">
+                    <div class="card__tags"><span>New</span>
+                    </div>
+                    <button class="card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="active-card__swiper-wrapper">
+                    <div class="active-card__swiper swiper">
+                      <ul class="active-card__swiper-list swiper-wrapper">
+                        <li class="active-card__swiper-item swiper-slide stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор"></li>
+                        <li class="active-card__swiper-item swiper-slide"><img src="images/card-simple.jpg" alt="Набор"></li>
+                      </ul>
+                    </div>
+                    <div class="active-card__swiper-dots"></div>
+                  </div>
+                  <div class="active-card__content-wrapper">
+                    <p class="active-card__article">Артикул: 23498549</p>
+                    <p class="active-card__title">Спальня Charisma</p>
+                    <p class="active-card__element"><span>Фабрика:</span><a href="index.html">De Majo</a></p>
+                    <p class="active-card__element"><span>Модель:</span><a href="index.html">Charisma</a></p>
+                    <p class="active-card__size">Ширина: 173 см, Высота: 110 см, Глубина: 212 см</p>
+                    <div class="active-card__wrapper">
+                      <p class="active-card__cost">Цена от 424 000 ₽</p>
+                      <p class="active-card__status">В наличии</p>
+                    </div>
+                    <div class="active-card__choice-wrapper">
+                      <form class="choice-radio choice-radio--light active-card__choice">
+                        <button class="choice-radio__button" type="button" aria-expanded="false"><span>160 × 200</span>
+                          <svg width="10" height="22" aria-hidden="true">
+                            <use xlink:href="images/sprite.svg#choice-arrows"></use>
+                          </svg>
+                        </button>
+                        <div class="choice-radio__list">
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size0" name="size"/>
+                            <label class="choice-radio__factory choice-radio__factory--current" for="size0">160 × 200</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size1" name="size"/>
+                            <label class="choice-radio__factory" for="size1">180 × 220</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size2" name="size"/>
+                            <label class="choice-radio__factory" for="size2">200 × 240</label>
+                          </div>
+                        </div>
+                      </form>
+                      <button class="active-card__button" type="button">Добавить в корзину —</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="navigation-search__item card card--simple">
+                <div class="card__tags-wrapper">
+                  <div class="card__tags">
+                  </div>
+                </div>
+                <!-- Стоковое состояние-->
+                <div class="card__stock stock-card">
+                  <p class="stock-card__article">Артикул: 23498549</p>
+                  <h2 class="stock-card__title">Спальня Charisma</h2><span class="stock-card__cost stock-card__cost">от 224 000 ₽</span>
+                  <div class="stock-card__image stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор">
+                    <button class="stock-card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <!-- Активное состояние-->
+                <div class="card__active active-card"><a class="active-card__link" href="index.html"><span class="visually-hidden">Перейти на страницу с товаром</span></a>
+                  <div class="card__all-wrapper">
+                    <div class="card__tags">
+                    </div>
+                    <button class="card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="active-card__swiper-wrapper">
+                    <div class="active-card__swiper swiper">
+                      <ul class="active-card__swiper-list swiper-wrapper">
+                        <li class="active-card__swiper-item swiper-slide stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор"></li>
+                        <li class="active-card__swiper-item swiper-slide"><img src="images/card-simple.jpg" alt="Набор"></li>
+                      </ul>
+                    </div>
+                    <div class="active-card__swiper-dots"></div>
+                  </div>
+                  <div class="active-card__content-wrapper">
+                    <p class="active-card__article">Артикул: 23498549</p>
+                    <p class="active-card__title">Спальня Charisma</p>
+                    <p class="active-card__element"><span>Фабрика:</span><a href="index.html">De Majo</a></p>
+                    <p class="active-card__element"><span>Модель:</span><a href="index.html">Charisma</a></p>
+                    <p class="active-card__size">Ширина: 173 см, Высота: 110 см, Глубина: 212 см</p>
+                    <div class="active-card__wrapper">
+                      <p class="active-card__cost">Цена от 224 000 ₽</p>
+                      <p class="active-card__status">В наличии</p>
+                    </div>
+                    <div class="active-card__choice-wrapper">
+                      <form class="choice-radio choice-radio--light active-card__choice">
+                        <button class="choice-radio__button" type="button" aria-expanded="false"><span>160 × 200</span>
+                          <svg width="10" height="22" aria-hidden="true">
+                            <use xlink:href="images/sprite.svg#choice-arrows"></use>
+                          </svg>
+                        </button>
+                        <div class="choice-radio__list">
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size0" name="size"/>
+                            <label class="choice-radio__factory choice-radio__factory--current" for="size0">160 × 200</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size1" name="size"/>
+                            <label class="choice-radio__factory" for="size1">180 × 220</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size2" name="size"/>
+                            <label class="choice-radio__factory" for="size2">200 × 240</label>
+                          </div>
+                        </div>
+                      </form>
+                      <button class="active-card__button" type="button">Добавить в корзину —</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="navigation-search__item card card--simple">
+                <div class="card__tags-wrapper">
+                  <div class="card__tags"><span>Sale</span>
+                  </div>
+                </div>
+                <!-- Стоковое состояние-->
+                <div class="card__stock stock-card">
+                  <p class="stock-card__article">Артикул: 23498549</p>
+                  <h2 class="stock-card__title">Спальня Charisma</h2><span class="stock-card__cost stock-card__cost">от 324 000 ₽</span>
+                  <div class="stock-card__image stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор">
+                    <button class="stock-card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <!-- Активное состояние-->
+                <div class="card__active active-card"><a class="active-card__link" href="index.html"><span class="visually-hidden">Перейти на страницу с товаром</span></a>
+                  <div class="card__all-wrapper">
+                    <div class="card__tags"><span>Sale</span>
+                    </div>
+                    <button class="card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="active-card__swiper-wrapper">
+                    <div class="active-card__swiper swiper">
+                      <ul class="active-card__swiper-list swiper-wrapper">
+                        <li class="active-card__swiper-item swiper-slide stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор"></li>
+                        <li class="active-card__swiper-item swiper-slide"><img src="images/card-simple.jpg" alt="Набор"></li>
+                      </ul>
+                    </div>
+                    <div class="active-card__swiper-dots"></div>
+                  </div>
+                  <div class="active-card__content-wrapper">
+                    <p class="active-card__article">Артикул: 23498549</p>
+                    <p class="active-card__title">Спальня Charisma</p>
+                    <p class="active-card__element"><span>Фабрика:</span><a href="index.html">De Majo</a></p>
+                    <p class="active-card__element"><span>Модель:</span><a href="index.html">Charisma</a></p>
+                    <p class="active-card__size">Ширина: 173 см, Высота: 110 см, Глубина: 212 см</p>
+                    <div class="active-card__wrapper">
+                      <p class="active-card__cost">Цена от 324 000 ₽</p>
+                      <p class="active-card__status">В наличии</p>
+                    </div>
+                    <div class="active-card__choice-wrapper">
+                      <form class="choice-radio choice-radio--light active-card__choice">
+                        <button class="choice-radio__button" type="button" aria-expanded="false"><span>160 × 200</span>
+                          <svg width="10" height="22" aria-hidden="true">
+                            <use xlink:href="images/sprite.svg#choice-arrows"></use>
+                          </svg>
+                        </button>
+                        <div class="choice-radio__list">
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size0" name="size"/>
+                            <label class="choice-radio__factory choice-radio__factory--current" for="size0">160 × 200</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size1" name="size"/>
+                            <label class="choice-radio__factory" for="size1">180 × 220</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size2" name="size"/>
+                            <label class="choice-radio__factory" for="size2">200 × 240</label>
+                          </div>
+                        </div>
+                      </form>
+                      <button class="active-card__button" type="button">Добавить в корзину —</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="navigation-search__item card card--simple">
+                <div class="card__tags-wrapper">
+                  <div class="card__tags"><span>New</span><span>Sale</span>
+                  </div>
+                </div>
+                <!-- Стоковое состояние-->
+                <div class="card__stock stock-card">
+                  <p class="stock-card__article">Артикул: 23498549</p>
+                  <h2 class="stock-card__title">Спальня Charisma</h2><span class="stock-card__cost stock-card__cost">от 324 000 ₽</span>
+                  <div class="stock-card__image stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор">
+                    <button class="stock-card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <!-- Активное состояние-->
+                <div class="card__active active-card"><a class="active-card__link" href="index.html"><span class="visually-hidden">Перейти на страницу с товаром</span></a>
+                  <div class="card__all-wrapper">
+                    <div class="card__tags"><span>New</span><span>Sale</span>
+                    </div>
+                    <button class="card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="active-card__swiper-wrapper">
+                    <div class="active-card__swiper swiper">
+                      <ul class="active-card__swiper-list swiper-wrapper">
+                        <li class="active-card__swiper-item swiper-slide stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор"></li>
+                        <li class="active-card__swiper-item swiper-slide"><img src="images/card-simple.jpg" alt="Набор"></li>
+                      </ul>
+                    </div>
+                    <div class="active-card__swiper-dots"></div>
+                  </div>
+                  <div class="active-card__content-wrapper">
+                    <p class="active-card__article">Артикул: 23498549</p>
+                    <p class="active-card__title">Спальня Charisma</p>
+                    <p class="active-card__element"><span>Фабрика:</span><a href="index.html">De Majo</a></p>
+                    <p class="active-card__element"><span>Модель:</span><a href="index.html">Charisma</a></p>
+                    <p class="active-card__size">Ширина: 173 см, Высота: 110 см, Глубина: 212 см</p>
+                    <div class="active-card__wrapper">
+                      <p class="active-card__cost">Цена от 324 000 ₽</p>
+                      <p class="active-card__status">В наличии</p>
+                    </div>
+                    <div class="active-card__choice-wrapper">
+                      <form class="choice-radio choice-radio--light active-card__choice">
+                        <button class="choice-radio__button" type="button" aria-expanded="false"><span>160 × 200</span>
+                          <svg width="10" height="22" aria-hidden="true">
+                            <use xlink:href="images/sprite.svg#choice-arrows"></use>
+                          </svg>
+                        </button>
+                        <div class="choice-radio__list">
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size0" name="size"/>
+                            <label class="choice-radio__factory choice-radio__factory--current" for="size0">160 × 200</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size1" name="size"/>
+                            <label class="choice-radio__factory" for="size1">180 × 220</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size2" name="size"/>
+                            <label class="choice-radio__factory" for="size2">200 × 240</label>
+                          </div>
+                        </div>
+                      </form>
+                      <button class="active-card__button" type="button">Добавить в корзину —</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="navigation-search__item card card--simple">
+                <div class="card__tags-wrapper">
+                  <div class="card__tags"><span>New</span>
+                  </div>
+                </div>
+                <!-- Стоковое состояние-->
+                <div class="card__stock stock-card">
+                  <p class="stock-card__article">Артикул: 23498549</p>
+                  <h2 class="stock-card__title">Спальня Charisma</h2><span class="stock-card__cost stock-card__cost">от 424 000 ₽</span>
+                  <div class="stock-card__image stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор">
+                    <button class="stock-card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <!-- Активное состояние-->
+                <div class="card__active active-card"><a class="active-card__link" href="index.html"><span class="visually-hidden">Перейти на страницу с товаром</span></a>
+                  <div class="card__all-wrapper">
+                    <div class="card__tags"><span>New</span>
+                    </div>
+                    <button class="card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="active-card__swiper-wrapper">
+                    <div class="active-card__swiper swiper">
+                      <ul class="active-card__swiper-list swiper-wrapper">
+                        <li class="active-card__swiper-item swiper-slide stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор"></li>
+                        <li class="active-card__swiper-item swiper-slide"><img src="images/card-simple.jpg" alt="Набор"></li>
+                      </ul>
+                    </div>
+                    <div class="active-card__swiper-dots"></div>
+                  </div>
+                  <div class="active-card__content-wrapper">
+                    <p class="active-card__article">Артикул: 23498549</p>
+                    <p class="active-card__title">Спальня Charisma</p>
+                    <p class="active-card__element"><span>Фабрика:</span><a href="index.html">De Majo</a></p>
+                    <p class="active-card__element"><span>Модель:</span><a href="index.html">Charisma</a></p>
+                    <p class="active-card__size">Ширина: 173 см, Высота: 110 см, Глубина: 212 см</p>
+                    <div class="active-card__wrapper">
+                      <p class="active-card__cost">Цена от 424 000 ₽</p>
+                      <p class="active-card__status">В наличии</p>
+                    </div>
+                    <div class="active-card__choice-wrapper">
+                      <form class="choice-radio choice-radio--light active-card__choice">
+                        <button class="choice-radio__button" type="button" aria-expanded="false"><span>160 × 200</span>
+                          <svg width="10" height="22" aria-hidden="true">
+                            <use xlink:href="images/sprite.svg#choice-arrows"></use>
+                          </svg>
+                        </button>
+                        <div class="choice-radio__list">
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size0" name="size"/>
+                            <label class="choice-radio__factory choice-radio__factory--current" for="size0">160 × 200</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size1" name="size"/>
+                            <label class="choice-radio__factory" for="size1">180 × 220</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size2" name="size"/>
+                            <label class="choice-radio__factory" for="size2">200 × 240</label>
+                          </div>
+                        </div>
+                      </form>
+                      <button class="active-card__button" type="button">Добавить в корзину —</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="navigation-search__item card card--simple">
+                <div class="card__tags-wrapper">
+                  <div class="card__tags">
+                  </div>
+                </div>
+                <!-- Стоковое состояние-->
+                <div class="card__stock stock-card">
+                  <p class="stock-card__article">Артикул: 23498549</p>
+                  <h2 class="stock-card__title">Спальня Charisma</h2><span class="stock-card__cost stock-card__cost">от 224 000 ₽</span>
+                  <div class="stock-card__image stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор">
+                    <button class="stock-card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <!-- Активное состояние-->
+                <div class="card__active active-card"><a class="active-card__link" href="index.html"><span class="visually-hidden">Перейти на страницу с товаром</span></a>
+                  <div class="card__all-wrapper">
+                    <div class="card__tags">
+                    </div>
+                    <button class="card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="active-card__swiper-wrapper">
+                    <div class="active-card__swiper swiper">
+                      <ul class="active-card__swiper-list swiper-wrapper">
+                        <li class="active-card__swiper-item swiper-slide stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор"></li>
+                        <li class="active-card__swiper-item swiper-slide"><img src="images/card-simple.jpg" alt="Набор"></li>
+                      </ul>
+                    </div>
+                    <div class="active-card__swiper-dots"></div>
+                  </div>
+                  <div class="active-card__content-wrapper">
+                    <p class="active-card__article">Артикул: 23498549</p>
+                    <p class="active-card__title">Спальня Charisma</p>
+                    <p class="active-card__element"><span>Фабрика:</span><a href="index.html">De Majo</a></p>
+                    <p class="active-card__element"><span>Модель:</span><a href="index.html">Charisma</a></p>
+                    <p class="active-card__size">Ширина: 173 см, Высота: 110 см, Глубина: 212 см</p>
+                    <div class="active-card__wrapper">
+                      <p class="active-card__cost">Цена от 224 000 ₽</p>
+                      <p class="active-card__status">В наличии</p>
+                    </div>
+                    <div class="active-card__choice-wrapper">
+                      <form class="choice-radio choice-radio--light active-card__choice">
+                        <button class="choice-radio__button" type="button" aria-expanded="false"><span>160 × 200</span>
+                          <svg width="10" height="22" aria-hidden="true">
+                            <use xlink:href="images/sprite.svg#choice-arrows"></use>
+                          </svg>
+                        </button>
+                        <div class="choice-radio__list">
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size0" name="size"/>
+                            <label class="choice-radio__factory choice-radio__factory--current" for="size0">160 × 200</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size1" name="size"/>
+                            <label class="choice-radio__factory" for="size1">180 × 220</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size2" name="size"/>
+                            <label class="choice-radio__factory" for="size2">200 × 240</label>
+                          </div>
+                        </div>
+                      </form>
+                      <button class="active-card__button" type="button">Добавить в корзину —</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="navigation-search__item card card--simple">
+                <div class="card__tags-wrapper">
+                  <div class="card__tags"><span>Sale</span>
+                  </div>
+                </div>
+                <!-- Стоковое состояние-->
+                <div class="card__stock stock-card">
+                  <p class="stock-card__article">Артикул: 23498549</p>
+                  <h2 class="stock-card__title">Спальня Charisma</h2><span class="stock-card__cost stock-card__cost">от 324 000 ₽</span>
+                  <div class="stock-card__image stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор">
+                    <button class="stock-card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <!-- Активное состояние-->
+                <div class="card__active active-card"><a class="active-card__link" href="index.html"><span class="visually-hidden">Перейти на страницу с товаром</span></a>
+                  <div class="card__all-wrapper">
+                    <div class="card__tags"><span>Sale</span>
+                    </div>
+                    <button class="card__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                      <svg width="16" height="14" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#favorite"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="active-card__swiper-wrapper">
+                    <div class="active-card__swiper swiper">
+                      <ul class="active-card__swiper-list swiper-wrapper">
+                        <li class="active-card__swiper-item swiper-slide stock-card__image--simple"><img src="images/card-simple.jpg" alt="Набор"></li>
+                        <li class="active-card__swiper-item swiper-slide"><img src="images/card-simple.jpg" alt="Набор"></li>
+                      </ul>
+                    </div>
+                    <div class="active-card__swiper-dots"></div>
+                  </div>
+                  <div class="active-card__content-wrapper">
+                    <p class="active-card__article">Артикул: 23498549</p>
+                    <p class="active-card__title">Спальня Charisma</p>
+                    <p class="active-card__element"><span>Фабрика:</span><a href="index.html">De Majo</a></p>
+                    <p class="active-card__element"><span>Модель:</span><a href="index.html">Charisma</a></p>
+                    <p class="active-card__size">Ширина: 173 см, Высота: 110 см, Глубина: 212 см</p>
+                    <div class="active-card__wrapper">
+                      <p class="active-card__cost">Цена от 324 000 ₽</p>
+                      <p class="active-card__status">В наличии</p>
+                    </div>
+                    <div class="active-card__choice-wrapper">
+                      <form class="choice-radio choice-radio--light active-card__choice">
+                        <button class="choice-radio__button" type="button" aria-expanded="false"><span>160 × 200</span>
+                          <svg width="10" height="22" aria-hidden="true">
+                            <use xlink:href="images/sprite.svg#choice-arrows"></use>
+                          </svg>
+                        </button>
+                        <div class="choice-radio__list">
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size0" name="size"/>
+                            <label class="choice-radio__factory choice-radio__factory--current" for="size0">160 × 200</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size1" name="size"/>
+                            <label class="choice-radio__factory" for="size1">180 × 220</label>
+                          </div>
+                          <div class="choice-radio__item">
+                            <input class="visually-hidden" type="radio" id="size2" name="size"/>
+                            <label class="choice-radio__factory" for="size2">200 × 240</label>
+                          </div>
+                        </div>
+                      </form>
+                      <button class="active-card__button" type="button">Добавить в корзину —</button>
+                    </div>
+                  </div>
+                </div>
+              </li><a class="navigation-search__all-result">Все результаты поиска —</a>
+            </ul>
+          </div>
+          <!-- Пустой результат поиска
+          div.navigation-search__empty
+          	button.navigation-search__close(type="button")
+          		span.visually-hidden Закрыть результат поиска
+          		svg(width="10", height="10", aria-hidden="true")
+          			use(xlink:href="images/sprite.svg#close")
+          
+          	p.navigation-search__empty-title По вашему запросу ничего не найдено
+          	p.navigation-search__description Попробуйте изменить запрос или проверьте правильность набора
+          
+          -->
+        </div>
+        <!-- Мобильная навигация-->
+        <div class="header__mobile-navigation mobile-navigation">
+          <ul class="mobile-navigation__list">
+            <li class="mobile-navigation__item">
+              <!-- Класс для отображения текущей страницы-->
+              <!-- mobile-navigation__link--current--><a class="mobile-navigation__link" href="index.html">
+                <svg width="17" height="15" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#home"></use>
+                </svg><span>Главная</span></a>
+            </li>
+            <li class="mobile-navigation__item">
+              <button class="mobile-navigation__link mobile-navigation__link--catalog" aria-expanded="false" aria-controls="mobile-catalog">
+                <svg width="15" height="15" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#catalog-open"></use>
+                </svg><span>Каталог</span>
+              </button>
+            </li>
+            <li class="mobile-navigation__item"><a class="mobile-navigation__link" href="cart.html">
+                <svg width="17" height="15" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#cart"></use>
+                </svg><span>Корзина</span></a></li>
+            <li class="mobile-navigation__item"><a class="mobile-navigation__link" href="bookmarks.html">
+                <svg width="15" height="15" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#bookmark"></use>
+                </svg><span>Закладки</span></a></li>
+            <li class="mobile-navigation__item"><a class="mobile-navigation__link" href="favorites.html">
+                <svg width="17" height="15" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#favorite"></use>
+                </svg><span>Нравится</span></a></li>
+          </ul>
+        </div>
+        <!-- Мобильный каталог-->
+        <div class="header__mobile-catalog mobile-catalog" id="mobile-catalog">
+          <h2 class="mobile-catalog__title">Каталог</h2>
+          <!-- Поиск-->
+          <form class="mobile-catalog__search" action="">
+            <input class="mobile-catalog__input" type="text" id="navigation-search" name="search" placeholder="Поиск">
+            <label class="visually-hidden" for="navigation-search">Поле поиска по сайту</label>
+            <button class="mobile-catalog__submit" type="submit"><span class="visually-hidden">Искать на сайте</span>
+              <svg width="14" height="14" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#loop"></use>
+              </svg>
+            </button>
+          </form>
+          <!-- Категории-->
+          <ul class="mobile-catalog__list">
+            <li class="mobile-catalog__item"><a class="mobile-catalog__link" href="index.html"><span class="mobile-catalog__image"><img src="images/icon-sale.svg" alt=""></span><span class="mobile-catalog__text">Распродажа</span></a>
+              <button class="mobile-catalog__button" type="button" aria-expanded="false" aria-controls="mobile-catalog"><span class="visually-hidden">Открыть раздел</span>
+                <svg width="10" height="6" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#navigation-arrow-top"></use>
+                </svg>
+              </button>
+              <div class="mobile-catalog__navigation" id="mobile-catalog">
+                <ul class="mobile-catalog__sub-list">
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Диваны</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Кресла</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Зеркала</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Кровати</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Пуфики</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Столы</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Тумбы</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="mobile-catalog__item"><a class="mobile-catalog__link" href="index.html"><span class="mobile-catalog__image"><img src="images/icon-bedroom.svg" alt=""></span><span class="mobile-catalog__text">Спальни</span></a>
+              <button class="mobile-catalog__button" type="button" aria-expanded="false" aria-controls="mobile-catalog"><span class="visually-hidden">Открыть раздел</span>
+                <svg width="10" height="6" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#navigation-arrow-top"></use>
+                </svg>
+              </button>
+              <div class="mobile-catalog__navigation" id="mobile-catalog">
+                <ul class="mobile-catalog__sub-list">
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Диваны</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Кресла</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Зеркала</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Кровати</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Пуфики</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Столы</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Тумбы</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="mobile-catalog__item"><a class="mobile-catalog__link" href="index.html"><span class="mobile-catalog__image"><img src="images/icon-children.svg" alt=""></span><span class="mobile-catalog__text">Детская мебель</span></a>
+              <button class="mobile-catalog__button" type="button" aria-expanded="false" aria-controls="mobile-catalog"><span class="visually-hidden">Открыть раздел</span>
+                <svg width="10" height="6" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#navigation-arrow-top"></use>
+                </svg>
+              </button>
+              <div class="mobile-catalog__navigation" id="mobile-catalog">
+                <ul class="mobile-catalog__sub-list">
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Диваны</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Кресла</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Зеркала</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Кровати</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Пуфики</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Столы</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Тумбы</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="mobile-catalog__item"><a class="mobile-catalog__link" href="index.html"><span class="mobile-catalog__image"><img src="images/icon-wall.svg" alt=""></span><span class="mobile-catalog__text">Стенки</span></a>
+              <button class="mobile-catalog__button" type="button" aria-expanded="false" aria-controls="mobile-catalog"><span class="visually-hidden">Открыть раздел</span>
+                <svg width="10" height="6" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#navigation-arrow-top"></use>
+                </svg>
+              </button>
+              <div class="mobile-catalog__navigation" id="mobile-catalog">
+                <ul class="mobile-catalog__sub-list">
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Диваны</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Кресла</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Зеркала</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Кровати</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Пуфики</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Столы</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Тумбы</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="mobile-catalog__item"><a class="mobile-catalog__link" href="index.html"><span class="mobile-catalog__image"><img src="images/icon-kitchen.svg" alt=""></span><span class="mobile-catalog__text">Кухни</span></a>
+              <button class="mobile-catalog__button" type="button" aria-expanded="false" aria-controls="mobile-catalog"><span class="visually-hidden">Открыть раздел</span>
+                <svg width="10" height="6" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#navigation-arrow-top"></use>
+                </svg>
+              </button>
+              <div class="mobile-catalog__navigation" id="mobile-catalog">
+                <ul class="mobile-catalog__sub-list">
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Диваны</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Кресла</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Зеркала</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Кровати</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Пуфики</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Столы</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Тумбы</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="mobile-catalog__item"><a class="mobile-catalog__link" href="index.html"><span class="mobile-catalog__image"><img src="images/icon-furniture.svg" alt=""></span><span class="mobile-catalog__text">Мягкая мебель</span></a>
+              <button class="mobile-catalog__button" type="button" aria-expanded="false" aria-controls="mobile-catalog"><span class="visually-hidden">Открыть раздел</span>
+                <svg width="10" height="6" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#navigation-arrow-top"></use>
+                </svg>
+              </button>
+              <div class="mobile-catalog__navigation" id="mobile-catalog">
+                <ul class="mobile-catalog__sub-list">
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Диваны</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Кресла</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Зеркала</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Кровати</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Пуфики</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Столы</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Тумбы</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="mobile-catalog__item"><a class="mobile-catalog__link" href="index.html"><span class="mobile-catalog__image"><img src="images/icon-lounge.svg" alt=""></span><span class="mobile-catalog__text">Гостиные</span></a>
+              <button class="mobile-catalog__button" type="button" aria-expanded="false" aria-controls="mobile-catalog"><span class="visually-hidden">Открыть раздел</span>
+                <svg width="10" height="6" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#navigation-arrow-top"></use>
+                </svg>
+              </button>
+              <div class="mobile-catalog__navigation" id="mobile-catalog">
+                <ul class="mobile-catalog__sub-list">
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Диваны</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Кресла</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Зеркала</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Кровати</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Пуфики</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Столы</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Тумбы</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="mobile-catalog__item"><a class="mobile-catalog__link" href="index.html"><span class="mobile-catalog__image"><img src="images/icon-cabinet.svg" alt=""></span><span class="mobile-catalog__text">Кабинеты, прихожие</span></a>
+              <button class="mobile-catalog__button" type="button" aria-expanded="false" aria-controls="mobile-catalog"><span class="visually-hidden">Открыть раздел</span>
+                <svg width="10" height="6" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#navigation-arrow-top"></use>
+                </svg>
+              </button>
+              <div class="mobile-catalog__navigation" id="mobile-catalog">
+                <ul class="mobile-catalog__sub-list">
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Диваны</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Кресла</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Зеркала</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Кровати</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Пуфики</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Столы</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Тумбы</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="mobile-catalog__item"><a class="mobile-catalog__link" href="index.html"><span class="mobile-catalog__image"><img src="images/icon-table.svg" alt=""></span><span class="mobile-catalog__text">Столы и стулья</span></a>
+              <button class="mobile-catalog__button" type="button" aria-expanded="false" aria-controls="mobile-catalog"><span class="visually-hidden">Открыть раздел</span>
+                <svg width="10" height="6" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#navigation-arrow-top"></use>
+                </svg>
+              </button>
+              <div class="mobile-catalog__navigation" id="mobile-catalog">
+                <ul class="mobile-catalog__sub-list">
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Диваны</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Кресла</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Зеркала</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Кровати</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Пуфики</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Столы</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Тумбы</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="mobile-catalog__item"><a class="mobile-catalog__link" href="index.html"><span class="mobile-catalog__image"><img src="images/icon-interior.svg" alt=""></span><span class="mobile-catalog__text">Предметы интерьера</span></a>
+              <button class="mobile-catalog__button" type="button" aria-expanded="false" aria-controls="mobile-catalog"><span class="visually-hidden">Открыть раздел</span>
+                <svg width="10" height="6" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#navigation-arrow-top"></use>
+                </svg>
+              </button>
+              <div class="mobile-catalog__navigation" id="mobile-catalog">
+                <ul class="mobile-catalog__sub-list">
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Диваны</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Кресла</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Зеркала</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Кровати</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Пуфики</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Столы</a></li>
+                  <li class="mobile-catalog__sub-item"><a class="mobile-catalog__sub-link" href="index.html">Тумбы</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="main" id="main">
+      <div class="crumbs container"><a class="crumbs__link" href="index.html">Главная <span>→</span></a><span class="crumbs__current">Корзина</span></div>
+      <section class="cart">
+        <div class="cart__container container">
+          <h1 class="cart__title">Корзина</h1>
+          <div class="cart-empty">
+            <p class="cart-empty__title">В корзине пусто!</p>
+            <p class="cart-empty__description">Перейдите в каталог, чтобы выбрать итальянскую мебель и предметы интерьера</p><a class="cart-empty__link" href="catalog.html">Перейти в каталог —</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Для страницы корзины примиксовать класс footer--cart если корзина не пуста-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__contacts">
+          <div class="footer__phone-socials"><a class="footer__phone" href="tel:88001617300">8 800 161 73 00</a>
+            <div class="footer__messengers"><a class="social" style="--before: rgb(255 255 255 / 20%); --after: #37AEE2" href="https://telegram.org/"><span class="visually-hidden">telegram</span>
+                <svg width="15" height="15" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#telegram"></use>
+                </svg></a><a class="social" style="--before: rgb(255 255 255 / 20%); --after: #00E676" href="https://www.whatsapp.com/"><span class="visually-hidden">whatsapp</span>
+                <svg width="15" height="15" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#whatsapp"></use>
+                </svg></a>
+            </div>
+          </div><a class="footer__email" href="mailto:info@mebit.ru">info@mebit.ru</a>
+        </div>
+        <ul class="footer__list">
+          <li class="footer__item"><a class="footer__link" href="catalog.html">Каталог мебели</a></li>
+          <li class="footer__item"><a class="footer__link" href="collaboration.html">Дизайнерам и архитекторам</a></li>
+          <li class="footer__item"><a class="footer__link" href="factories.html">Фабрики</a></li>
+          <li class="footer__item"><a class="footer__link" href="about.html">О компании</a></li>
+          <li class="footer__item"><a class="footer__link" href="shipping-and-payment.html">Доставка и оплата</a></li>
+          <li class="footer__item"><a class="footer__link" href="about.html">Контакты</a></li>
+        </ul>
+        <div class="footer__socials"><a class="social social--color" style="--before: #fff; --after: #3B5998" href="https://www.facebook.com/"><span class="visually-hidden">facebook</span>
+            <svg width="15" height="15" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#facebook"></use>
+            </svg></a><a class="social social--color" style="--before: #fff; --after: linear-gradient(180deg, #6E50CE 0%, #C43B55 30.11%, #DF6B3E 58.71%, #F2CF77 100%)" href="https://www.instagram.com/"><span class="visually-hidden">instagram</span>
+            <svg width="15" height="15" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#instagram"></use>
+            </svg></a><a class="social social--color" style="--before: #fff; --after: #4D7198"><span class="visually-hidden">vkontakte</span>
+            <svg width="15" height="15" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#vkontakte"></use>
+            </svg></a>
+        </div><a class="footer__return" href="#main"><span>Наверх</span>
+          <svg width="16" height="10" aria-hidden="true">
+            <use xlink:href="images/sprite.svg#return-arrow"></use>
+          </svg></a>
+        <div class="footer__copyright-wrapper"><span>© 2021 Mebelgroup.com</span><span>Все права защищены</span><a href="policy.html">Политика конфиденциальности</a>
+          <p>Создание сайта —<a href="https://insky.digital/"> Insky.digital</a></p>
+        </div>
+      </div>
+    </footer>
+    <div class="modal">
+      <!-- Только на странице с корзиной-->
+      <div class="cart-modal">
+        <button class="cart-modal__close modal__close" type="button"><span class="visually-hidden">Закрыть окно</span>
+          <svg width="10" height="10" aria-hidden="true">
+            <use xlink:href="images/sprite.svg#close"></use>
+          </svg>
+        </button>
+        <div class="cart-modal__wrapper">
+          <p class="cart-modal__title">Вы уверены, что хотите удалить этот товар из корзины?</p>
+          <div class="cart-modal__buttons">
+            <button class="cart-modal__button" type="button">Да</button>
+            <button class="cart-modal__button" type="button">Нет</button>
+          </div>
+        </div>
+      </div>
+      <!-- Оформление заявки-->
+      <div class="request-modal">
+        <div class="request-modal__container container">
+          <button class="request-modal__close modal__close" type="button"><span class="visually-hidden">Закрыть окно</span>
+            <svg width="10" height="10" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#close"></use>
+            </svg>
+          </button>
+          <p class="request-modal__title modal__title">Оформление заявки</p>
+          <form class="request-modal__form form">
+            <div class="request-modal__wrapper form__wrapper">
+              <input class="request-modal__input form__input _req _name" type="text" id="cart-name" name="name" placeholder="Введите ваше имя">
+              <label class="visually-hidden" for="cart-name">Введите ваше имя</label><span class="request-modal__error form__error"></span>
+            </div>
+            <div class="request-modal__wrapper request-modal__wrapper--left form__wrapper">
+              <input class="request-modal__input form__input _req _tel" type="tel" id="cart-tel" name="phone" placeholder="Телефон">
+              <label class="visually-hidden" for="cart-tel">Ваш номер телефона</label><span class="request-modal__error form__error"></span>
+            </div>
+            <div class="request-modal__wrapper request-modal__wrapper--right form__wrapper">
+              <input class="request-modal__input form__input _req _email" type="email" id="cart-email" name="email" placeholder="Email">
+              <label class="visually-hidden" for="cart-email">Ваш email</label><span class="request-modal__error form__error"></span>
+            </div>
+            <div class="request-modal__wrapper form__wrapper">
+              <textarea class="request-modal__input request-modal__input--textarea form__input" id="cart-comment" name="comment" placeholder="Комментарий"></textarea>
+              <label class="visually-hidden" for="cart-comment">Оставьте комментарий</label>
+            </div>
+            <button class="request-modal__submit" type="submit">Оставить заявку —</button>
+            <div class="request-modal__consent">
+              <input class="request-modal__checkbox visually-hidden" type="checkbox" id="cart-check" name="consent" checked required>
+              <label class="request-modal__label form__label" for="cart-check">Соглашаюсь с обработкой персональных данных в соответствии с <a href="policy.html">политикой конфиденциальности</a></label>
+            </div>
+          </form><a class="request-modal__link" href="shipping-and-payment.html">Доставка и оплата</a>
+        </div>
+      </div>
+      <!-- Дизайн интерьера-->
+      <div class="design-modal">
+        <div class="design-modal__container container">
+          <button class="design-modal__close modal__close" type="button"><span class="visually-hidden">Закрыть окно</span>
+            <svg width="10" height="10" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#close"></use>
+            </svg>
+          </button>
+          <p class="design-modal__title modal__title">Дизайн интерьера</p>
+          <form class="design-modal__form form">
+            <div class="design-modal__wrapper form__wrapper">
+              <input class="design-modal__input form__input _req _name" type="text" id="design-name" name="name" placeholder="Введите ваше имя">
+              <label class="visually-hidden" for="design-name">Введите ваше имя</label><span class="design-modal__error form__error"></span>
+            </div>
+            <div class="design-modal__wrapper design-modal__wrapper--left form__wrapper">
+              <input class="design-modal__input form__input _req _tel" type="tel" id="design-tel" name="phone" placeholder="Телефон">
+              <label class="visually-hidden" for="design-tel">Ваш номер телефона</label><span class="design-modal__error form__error"></span>
+            </div>
+            <div class="design-modal__wrapper design-modal__wrapper--right form__wrapper">
+              <input class="design-modal__input form__input _req _email" type="email" id="design-email" name="email" placeholder="Email">
+              <label class="visually-hidden" for="design-email">Ваш email</label><span class="design-modal__error form__error"></span>
+            </div>
+            <div class="design-modal__wrapper form__wrapper">
+              <textarea class="design-modal__input design-modal__input--textarea form__input" id="design-comment" name="comment" placeholder="Комментарий"></textarea>
+              <label class="visually-hidden" for="design-comment">Оставьте комментарий</label>
+            </div>
+            <div class="design-modal__wrapper form__wrapper">
+              <div class="design-modal__file-wrap">
+                <input class="design-modal__file-input" type="file" id="design-file14" name="file14">
+                <input class="design-modal__file-input" type="file" id="design-file13" name="file13">
+                <input class="design-modal__file-input" type="file" id="design-file12" name="file12">
+                <input class="design-modal__file-input" type="file" id="design-file11" name="file11">
+                <input class="design-modal__file-input" type="file" id="design-file10" name="file10">
+                <input class="design-modal__file-input" type="file" id="design-file9" name="file9">
+                <input class="design-modal__file-input" type="file" id="design-file8" name="file8">
+                <input class="design-modal__file-input" type="file" id="design-file7" name="file7">
+                <input class="design-modal__file-input" type="file" id="design-file6" name="file6">
+                <input class="design-modal__file-input" type="file" id="design-file5" name="file5">
+                <input class="design-modal__file-input" type="file" id="design-file4" name="file4">
+                <input class="design-modal__file-input" type="file" id="design-file3" name="file3">
+                <input class="design-modal__file-input" type="file" id="design-file2" name="file2">
+                <input class="design-modal__file-input" type="file" id="design-file1" name="file1">
+                <input class="design-modal__file-input" type="file" id="design-file0" name="file0"><a class="design-modal__file"><span>Прикрепить фото планировки</span></a>
+              </div>
+              <div class="design-modal__files"></div>
+            </div>
+            <button class="design-modal__submit" type="submit">Оставить заявку —</button>
+            <div class="design-modal__consent">
+              <input class="design-modal__checkbox visually-hidden" type="checkbox" id="design-check" name="consent" checked required>
+              <label class="design-modal__label form__label" for="design-check">Соглашаюсь с обработкой персональных данных в соответствии с <a href="policy.html">политикой конфиденциальности</a></label>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- Успешная отправка-->
+      <div class="success-modal">
+        <div class="success-modal__container container">
+          <button class="success-modal__close modal__close" type="button"><span class="visually-hidden">Закрыть окно</span>
+            <svg width="10" height="10" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#close"></use>
+            </svg>
+          </button>
+          <p class="success-modal__title modal__title">Спасибо!</p>
+          <p class="success-modal__text">Наш менеджер с Вами свяжется для уточнения деталей заказа</p>
+        </div>
+      </div>
+      <!-- Быстрый просмотр (набор)-->
+      <div class="sett-modal">
+        <div class="sett-modal__container container">
+          <div class="sett-modal__info-wrap">
+            <button class="sett-modal__close modal__close" type="button"><span class="visually-hidden">Закрыть окно</span>
+              <svg width="10" height="10" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#close"></use>
+              </svg>
+            </button>
+            <p class="sett-modal__title">Спальня Charisma</p>
+            <div class="sett-modal__content-wrapper">
+              <p class="sett-modal__element"><span>Фабрика</span><a href="index.html">De Majo</a></p>
+              <p class="sett-modal__element sett-modal__element--model"><span>Модель</span><a href="index.html">Charisma</a></p>
+              <p class="sett-modal__element"><span>Стиль</span><a>Арт-деко</a></p>
+              <p class="sett-modal__element"><span>Материал</span><a>МДФ, кожа</a></p>
+            </div>
+            <div class="sett-modal__center-wrapper"><span class="sett-modal__cost">Цена от 324 000 ₽</span><span class="sett-modal__status">В наличии</span></div>
+            <button class="sett-modal__get" type="button">Оставить заявку —</button>
+            <div class="sett-modal__links"><a class="sett-modal__link sett-modal__link--list" href="#">Список товаров</a><a class="sett-modal__link sett-modal__link--download" href="#">Скачать каталог</a></div>
+          </div>
+          <div class="sett-modal__swiper-wrap">
+            <div class="sett-modal__all-wrap">
+              <div class="sett-modal__tags"><span>New</span><span>Sale</span></div>
+              <button class="sett-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                <svg width="16" height="14" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#favorite"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="sett-modal__swiper swiper">
+              <ul class="sett-modal__swiper-wrapper swiper-wrapper">
+                <li class="sett-modal__swiper-slide swiper-slide"><img src="images/preview02.jpg" alt="Фото"></li>
+                <li class="sett-modal__swiper-slide swiper-slide"><img src="images/preview01.jpg" alt="Фото"></li>
+                <li class="sett-modal__swiper-slide swiper-slide"><img src="images/preview02.jpg" alt="Фото"></li>
+              </ul>
+            </div>
+            <div class="sett-modal__buttons">
+              <button class="sett-modal__button sett-modal__button--prev" type="button"><span class="visually-hidden">Предыдущий слайд</span>
+                <svg width="7" height="10" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#product-arrow-prev"></use>
+                </svg>
+              </button>
+              <button class="sett-modal__button sett-modal__button--next" type="button"><span class="visually-hidden">Следующий слайд</span>
+                <svg width="7" height="10" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#product-arrow-next"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="sett-modal__dots"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Быстрый просмотр (простая)-->
+      <div class="simple-modal">
+        <div class="simple-modal__container container">
+          <div class="simple-modal__info-wrap">
+            <button class="simple-modal__close modal__close" type="button"><span class="visually-hidden">Закрыть окно</span>
+              <svg width="10" height="10" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#close"></use>
+              </svg>
+            </button>
+            <p class="simple-modal__article">Артикул: 23498549</p>
+            <p class="simple-modal__title">Кровать Alchemy New Silver</p>
+            <div class="simple-modal__content-wrapper">
+              <p class="simple-modal__element"><span>Фабрика</span><a href="index.html">De Majo</a></p>
+              <p class="simple-modal__element simple-modal__element--model"><span>Модель</span><a href="index.html">Charisma</a></p>
+              <p class="simple-modal__element"><span>Стиль</span><a>Арт-деко</a></p>
+              <p class="simple-modal__element"><span>Материал</span><a>МДФ, кожа</a></p>
+              <p class="simple-modal__element"><span>Цвет</span><a><img src="images/cart-color01.svg" alt="">Серый</a></p>
+            </div>
+            <div class="simple-modal__size-wrapper">
+              <p class="simple-modal__size"><span>Ширина</span><a>173 см</a></p>
+              <p class="simple-modal__size"><span>Высота</span><a>110 см</a></p>
+              <p class="simple-modal__size"><span>Глубина</span><a>212 см</a></p>
+            </div>
+            <div class="simple-modal__center-wrapper"><span class="simple-modal__cost">Цена от 324 000 ₽</span><span class="simple-modal__status">В наличии</span></div>
+            <div class="simple-modal__bottom-wrap">
+              <form class="choice-radio choice-radio--light simple-modal__choice">
+                <button class="choice-radio__button" type="button" aria-expanded="false"><span>160 × 200</span>
+                  <svg width="10" height="22" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#choice-arrows"></use>
+                  </svg>
+                </button>
+                <div class="choice-radio__list">
+                  <div class="choice-radio__item">
+                    <input class="visually-hidden" type="radio" id="size0" name="size"/>
+                    <label class="choice-radio__factory choice-radio__factory--current" for="size0">160 × 200</label>
+                  </div>
+                  <div class="choice-radio__item">
+                    <input class="visually-hidden" type="radio" id="size1" name="size"/>
+                    <label class="choice-radio__factory" for="size1">180 × 220</label>
+                  </div>
+                  <div class="choice-radio__item">
+                    <input class="visually-hidden" type="radio" id="size2" name="size"/>
+                    <label class="choice-radio__factory" for="size2">200 × 240</label>
+                  </div>
+                </div>
+              </form>
+              <button class="simple-modal__add-to-cart simple-modal__add-to-cart--active" type="button">Добавить в корзину —</button>
+            </div><a class="simple-modal__link" href="#">Узнать больше о товаре →</a>
+          </div>
+          <div class="simple-modal__swiper-wrap">
+            <div class="simple-modal__all-wrap">
+              <div class="simple-modal__tags"><span>New</span><span>Sale</span></div>
+              <button class="simple-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                <svg width="16" height="14" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#favorite"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="simple-modal__swiper swiper">
+              <ul class="sett-modal__swiper-wrapper swiper-wrapper">
+                <li class="simple-modal__swiper-slide swiper-slide"><img src="images/preview02.jpg" alt="Фото"></li>
+                <li class="simple-modal__swiper-slide swiper-slide"><img src="images/preview01.jpg" alt="Фото"></li>
+                <li class="simple-modal__swiper-slide swiper-slide"><img src="images/preview02.jpg" alt="Фото"></li>
+              </ul>
+            </div>
+            <div class="simple-modal__buttons">
+              <button class="simple-modal__button simple-modal__button--prev" type="button"><span class="visually-hidden">Предыдущий слайд</span>
+                <svg width="7" height="10" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#product-arrow-prev"></use>
+                </svg>
+              </button>
+              <button class="simple-modal__button simple-modal__button--next" type="button"><span class="visually-hidden">Следующий слайд</span>
+                <svg width="7" height="10" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#product-arrow-next"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="simple-modal__dots"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Каталог-->
+      <div class="catalog-modal">
+        <div class="catalog-modal__container container">
+          <div class="catalog-modal__info-wrap">
+            <button class="catalog-modal__close modal__close" type="button"><span class="visually-hidden">Закрыть окно</span>
+              <svg width="10" height="10" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#close"></use>
+              </svg>
+            </button>
+            <p class="catalog-modal__title">Каталог «The sofa collection»</p>
+            <div class="catalog-modal__content-wrapper">
+              <p class="catalog-modal__element"><span>Фабрика</span><a href="index.html">De Majo</a></p>
+              <p class="catalog-modal__element"><span>Стиль</span><a>Арт-деко</a></p>
+              <p class="catalog-modal__element"><span>Материал</span><a>МДФ, кожа</a></p>
+            </div>
+            <div class="catalog-modal__links"><a class="catalog-modal__link catalog-modal__link--print" href="index.html" target="_blank">Распечатать</a><a class="catalog-modal__link catalog-modal__link--download" href="index.html" download>Скачать каталог</a></div>
+            <button class="catalog-modal__get" type="button">Оставить заявку —</button>
+          </div>
+          <div class="catalog-modal__swiper-wrap">
+            <div class="catalog-modal__swiper swiper">
+              <ul class="catalog-modal__swiper-wrapper swiper-wrapper">
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide03.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide04.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide05.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide06.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide07.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide08.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide09.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide10.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide11.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide12.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide13.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide14.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide15.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide16.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide17.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide18.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide19.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide20.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide21.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide22.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide23.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide24.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide25.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide26.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide27.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide28.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide29.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide30.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide31.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide32.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide33.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide34.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide35.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="catalog-modal__swiper-slide swiper-slide"><img src="images/catalog-slide36.jpg" alt="Фото">
+                  <button class="catalog-modal__favorite" type="button"><span class="visually-hidden">Добавить в избранное</span>
+                    <svg width="16" height="14" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#bookmark"></use>
+                    </svg>
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <div class="catalog-modal__buttons">
+              <button class="catalog-modal__button catalog-modal__button--prev" type="button"><span class="visually-hidden">Предыдущий слайд</span>
+                <svg width="7" height="10" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#product-arrow-prev"></use>
+                </svg>
+              </button>
+              <button class="catalog-modal__button catalog-modal__button--next" type="button"><span class="visually-hidden">Следующий слайд</span>
+                <svg width="7" height="10" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#product-arrow-next"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="catalog-modal__dots"></div>
+            <div class="catalog-modal__pages" data-page="2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Чтобы отобразить, нужно убрать cookie--closed-->
+    <div class="cookie cookie--closed">
+      <div class="cookie__container">
+        <p class="cookie__text">Мы используем cookie и другие аналогичные технологии. Если, прочитав это сообщение, вы остаетесь на нашем сайте, это означает, что вы не возражаете против использования этих технологий</p>
+        <button class="cookie__close" type="button">Ок —</button>
+      </div>
+    </div>
+    <script src="js/bundle.min.js?_v=20221222014351"></script>
+    <!-- Навигация по страницам вёрстки во время разработки-->
+    <script src="js/switcher.js?_v=20221222014351"></script>
+    <script src="https://vjs.zencdn.net/7.18.1/video.min.js?_v=20221222014351"></script>
+  </body>
+</html>
